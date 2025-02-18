@@ -33,58 +33,6 @@ Build a full-stack event management website using mern and designed with modern 
 
 and many more, including code architecture
 
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [VsCode](https://code.visualstudio.com/)
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/Subhajit42033/Isvari_EventManagement_Web.git
-cd Isvari_EventManagement_Web
-```
-
-**Installation** 
-
-```bash
-npm install
-```
-
-**Set Up Environment Variables**
-
-Create a new file named `.env` in the root of your project and add the following content:
-
-```env
-PORT=3100
-MONGO_URI=
-JWT_SECRET_KEY=
-API_KEY=
-API_SECRET=
-CLOUD_NAME=
-MY_MAIL=
-MY_PASS=
-```
-
-Replace the values with your actual credentials : 
-- Get MONGO_URI from mongodb
-- Put a random text including special chars(optional) in JWT_SECRET_KEY
-- Put your mail in MY_MAIL
-- Others you will get from Google Cloud
-
-**Start the app**
-   
-```bash
- npm run dev
-```
 
 <img src="https://github.com/Subhajit42033/Isvari_EventManagement_Web/blob/main/frontend/src/assets/banner.png" alt="Isvari Banner" style="width: 100%; max-width: 800px;">
 Explore our interactive demo web to see our latest project in action! Click the link below to experience our cutting-edge features and discover how they can enhance your digital experience. Dive in now and see for yourself!
